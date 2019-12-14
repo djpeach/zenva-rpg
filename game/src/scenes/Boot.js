@@ -20,6 +20,7 @@ export default class BootScene extends Phaser.Scene {
     this.load.spritesheet('RPGpack_sheet', RPGpack_sheet, { frameWidth: 64, frameHeight: 64 });
     this.load.spritesheet('characters', characters, { frameWidth: 17, frameHeight: 17 });
     this.load.image('portal', 'assets/images/raft.png');
+    this.load.image('coin', 'assets/images/coin_01.png');
   }
 
   create () {
